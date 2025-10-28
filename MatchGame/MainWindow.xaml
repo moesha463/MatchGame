@@ -40,6 +40,6 @@
         <TextBlock HorizontalAlignment="Center" TextWrapping="NoWrap" Text="?" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock HorizontalAlignment="Center" TextWrapping="NoWrap" Text="?" VerticalAlignment="Center" Grid.Column="3" Grid.Row="3" FontSize="36" MouseDown="TextBlock_MouseDown"/>
 
-        <TextBlock Name="timeTextBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Elapsed Time" VerticalAlignment="Top" FontSize="36" MouseDown="TimeTextBlock_MouseDown" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,85,0,0" Grid.Row="3" Grid.RowSpan="2"/>
+        <TextBlock Name="timeTextBlock" HorizontalAlignment="Center" Text="Elapsed Time" VerticalAlignment="Center" FontSize="36" MouseDown="TimeTextBlock_MouseDown" Grid.ColumnSpan="4" Margin="10,87,0,0" Grid.Row="3" Grid.RowSpan="2" Width="390" TextAlignment="Center"/>
     </Grid>
 </Window>
